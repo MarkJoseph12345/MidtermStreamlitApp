@@ -113,7 +113,7 @@ top_deezer_tracks['track_label'] = top_deezer_tracks['track_name'] + ' (' + top_
 
 plt.figure(figsize=(12, 6))
 sns.barplot(x='track_label', y='streams', data=top_deezer_tracks)
-plt.title('Top 10 Tracks in Apple Playlists and Their Streams', fontsize=16)
+plt.title('Top 10 Tracks in Deezer Playlists and Their Streams', fontsize=16)
 plt.xlabel('Tracks', fontsize=14)
 plt.ylabel('Total Streams', fontsize=14)
 plt.xticks(rotation=45, ha='right')
